@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="assests/donate.css">
+        <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Your Website Title" />
+        <meta property="og:description"   content="Your description" />
+        <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+    </head>
+    <body>
+        <div class="main" role="donatationContainer">
+            <section class="donateheader">
+                <h3 class="donatetxt"><span id="amountRequired">$0</span> still needed for this project</h3>
+            </section>
+            <section class="donateInfoContainer">
+                <progress class="donateprogressbar" value="0" max="100"></progress>
+                <section class="donateInfo">
+                    <p class="donateInfoTxt"><span class="donateInfoHighlight">Only 3 days left</span> to fund this project.</p>
+                    <p class="donateInfoTxt">Join the <span id="donateInfoContributor" class="donateInfoContributor">0</span> other donors who have already supported this project. Every dollar helps.</p>
+                </section>
+                <section class="donateAmountContainer">
+                    <label class="donateSymbol" for="donateInput">$</label>
+                    <div class="donateInputContainer">
+                        <input id="donateInput" type="text" class="donateInput donateAmount"/>
+                    </div>   
+                    <button id="submitAmount" class="donateBtn donateAmount">Give Now</button>
+                </section>
+                <section>
+                    <p class="donateAmountInfo">Why give $<span id="dynamicAmount">0</span>?</p>
+                </section>
+            </section>
+            <section class="donateShare">
+                <button class="shareBtn" id="saveBtn">Save for later</button>
+                <button class="shareBtn" id="shareBtn">Tell your friends</button>
+            </section>
+        </div>
+        <div class="fb-share-button" 
+            data-href="http://www.your-domain.com/your-page.html" 
+            data-layout="button_count">
+        </div>
+        <div id="dialog" title="Basic dialog">
+        </div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

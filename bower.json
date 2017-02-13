@@ -1,0 +1,23 @@
+{
+  "name": "donateproject",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "svinayaka <svinayaka290489@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "less": "^2.7.2"
+  }
+}

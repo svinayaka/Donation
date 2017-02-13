@@ -1,0 +1,130 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.main {
+    margin: auto;
+    width: 30%;
+    position: relative
+}
+.donateheader {
+    background: #424242;
+    color: white;
+    height: 70px;
+    text-align: center;
+    line-height: 64px;
+    font-size: x-large;
+    border-radius: 4px;
+}
+.donatetxt {
+    margin: 0px;
+}
+.donateheader:after {
+    border-top: 16px solid #424242;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    bottom: 0px;
+    content: "";
+    position: absolute;
+    left: 0%;
+    margin-left: 0px;
+    top: 14%;
+    width: 0;
+    height: 0;
+}
+.donateInfoContainer {
+    border: 1px solid #dcdcdc;
+    padding: 0% 4% 0% 4%;
+    position: relative;
+    margin-top: 4%;
+}
+.donateprogressbar {
+    width: 100%;
+    background: white;
+    height: 25px;
+    color: white;
+    border: 1px solid #dcdcdc;
+    position: absolute;
+    left: 0%;
+}
+.donateprogressbar::-webkit-progress-value { 
+    background:#f25f34;
+    color: white; 
+}
+.donateInfoTxt {
+    font-size: 24px;
+    text-align: left;
+    color: #828282;
+
+}
+.donateInfoHighlight {
+    color: #f25f34;
+    font-weight: bold;
+}
+.donateInfoContributor {
+    color: #828282;
+    font-weight:bold;
+}
+.donateAmountContainer {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.donateSymbol {
+    width: 10%;
+    font-size: x-large;
+    color: gray;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    font-weight: bold;
+}
+.donateAmount {
+    display: block;
+    width: 30%;
+    border: 1px solid #dcdcdc;
+    height: 60px;
+    border-radius: 4px;
+    font-size: x-large;
+    min-width: 160px;
+}
+.donateInputContainer {
+    min-width: 150px;
+    width: 30%;
+    position: relative;
+    right: 16%;
+}
+.donateInput {
+    width: 100%;
+    border-left: 0px solid;
+    font-weight: bold;
+    color: #424242;
+    min-width: 150px;
+}
+.donateBtn {
+    background: #00be1c;
+    color: white;
+}
+.donateAmountInfo {
+    color: #11a1d6;
+    font-size: x-large;
+    font-family: serif;
+}
+.donateShare {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shareBtn {
+    height: 60px;
+    width: 260px;
+    border: 1px solid #dcdcdc;
+    background: white;
+    border-radius: 4px;
+}
